@@ -17,7 +17,7 @@ int main()
 {
 int rows,columns,matrix[MAX_ROWS][MAX_COLS];
 int i,j,k;
-scanf("%d%d",&rows,&columns);
+scanf("%d %d",&rows,&columns);
 if(rows<1||rows>MAX_ROWS||columns<1||columns>MAX_COLS)
 {
 printf("INVALID MATRIX SIZE\n");
