@@ -29,7 +29,7 @@ int main()
 int arr[100],n,x,i,index=-1;
 printf("Enter number of elements:");
 scanf("%d",&n);
-printf("Enter elements:");
+printf("arr =");
 for(i=0;i<n;i++)
 scanf("%d",&arr[i]);
 printf("Enter x:");

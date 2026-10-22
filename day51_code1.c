@@ -25,7 +25,7 @@ int nums[100],n,target;
 int i,first=-1,last=-1;
 printf("Enter number of elements:");
 scanf("%d",&n);
-printf("Enter elements:");
+printf("nums =");
 for(i=0;i<n;i++)
 scanf("%d",&nums[i]);
 printf("Enter target:");
